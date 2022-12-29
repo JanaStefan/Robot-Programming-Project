@@ -1,0 +1,53 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Tell more about the Farnese Hercules
+  steps:
+  - intent: exhibit_farnese_hercules
+  - action: utter_exhibit_farnese_hercules
+
+- rule: Tell more about the Gabinetto Segreto
+  steps:
+  - intent: exhibit_gabinetto_segreto
+  - action: utter_exhibit_gabinetto_segreto
+
+- rule: Tell more about the Battle of Alexander against Darius Mosaic
+  steps:
+  - intent: exhibit_battle_mosaic
+  - action: utter_exhibit_battle_mosaic
+
+- rule: Tell more about the Portrait of Terentius Neo and his wife
+  steps:
+  - intent: exhibit_portrait_terentius
+  - action: utter_exhibit_portrait_terentius
+
+- rule: Tell more about the Farnese Bull
+  steps:
+  - intent: exhibit_farnese_bull
+  - action: utter_exhibit_farnese_bull
+
+- rule: Tell more about the Donarium of Dying Figures
+  steps:
+  - intent: exhibit_donarium
+  - action: utter_exhibit_donarium
+
+- rule: Tell more about the Bronze Runners
+  steps:
+  - intent: exhibit_bronze_runners
+  - action: utter_exhibit_bronze_runners
+
+- rule: Tell the source of the information
+  steps:
+  - intent: what_source
+  - action: utter_what_source

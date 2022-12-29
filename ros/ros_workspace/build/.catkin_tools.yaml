@@ -1,0 +1,6 @@
+devel_space: /home/jana/Desktop/RP_Project/ros/ros_workspace/devel
+install: false
+install_space: /home/jana/Desktop/RP_Project/ros/ros_workspace/install
+profile: default
+source_space: /home/jana/Desktop/RP_Project/ros/ros_workspace/src
+workspace: /home/jana/Desktop/RP_Project/ros/ros_workspace

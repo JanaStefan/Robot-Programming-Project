@@ -1,0 +1,1 @@
+/home/jana/Desktop/RP_Project/ros/ros_workspace/devel/.private/rasa_ros/lib/python3/dist-packages/rasa_ros/__init__.py

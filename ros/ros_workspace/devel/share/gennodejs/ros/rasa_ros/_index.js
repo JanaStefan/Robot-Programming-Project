@@ -1,0 +1,1 @@
+/home/jana/Desktop/RP_Project/ros/ros_workspace/devel/.private/rasa_ros/share/gennodejs/ros/rasa_ros/_index.js

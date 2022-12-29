@@ -1,0 +1,74 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - exhibit_farnese_hercules
+  - exhibit_gabinetto_segreto
+  - exhibit_battle_mosaic
+  - exhibit_portrait_terentius
+  - exhibit_farnese_bull
+  - exhibit_donarium
+  - exhibit_bronze_runners
+  - what_source
+
+entities:
+  - exhibit
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_exhibit_farnese_hercules:
+  - text: "A hunk of ancient man marble like no other, the Farnese Hercules unforgettably expresses the otherworldly might of the immortal ancient warrior. Like most of the finest ancient Roman statues, the massive Hercules is a copy of a much older Greek bronze original, melted down by crusaders during the Sack of Constantinople in 1205. Having finally completed the wearisome 12 labours required of him by the gods, the mighty naked warrior leans on the club with which he slew the ferocious Nemean Lion, lost in contemplation at the magnitude of his achievements. Rediscovered in the Renaissance, the marble formed the centrepiece of the powerful Cardinal Alessandro Farnese’s unrivalled collection of antiquities in Rome, before finding its way to Naples in the 18th century. Hercules extraordinary muscular form has provided the archetypal figuration for the famous hero ever since. "
+
+  utter_exhibit_gabinetto_segreto:
+  - text: "The museum’s fascinating X-rated ‘secret cabinet’ collects an incredible array of erotic artefacts, phallic charms and sexually explicit frescoes and mosaics, taken from the villas, bars and brothels of ancient Pompeii and Herculaneum over centuries of excavations. For the Romans, phalluses and the phallic God Priapus in particular were potent good-luck charms; erotic frescoes meanwhile were harbingers of fertility, whilst an extraordinary carving of the half-human half-goat Pan having his way with a cloven-hoofed cousin showcases the irreverent side of ancient sexual humour. In the 18th century the prudish Bourbons collected all the excavated smut in one place, and until relatively recently access was strictly limited to scholars in order to ensure prying eyes didn’t get any ideas - in more enlightened times the Gabinetto Segreto has become a must-see for any visitor to the Museum, providing a fascinating insight into the private lives of the ancients."
+
+  utter_exhibit_battle_mosaic:
+  - text: "One of the ancient world’s finest surviving mosaics, this incredible battle scene is taken from Pompeii’s House of the Faun (the city’s largest dwelling), where it decorated the floor of a room overlooking the domus’ central courtyard garden. The huge mosaic, all of 2.7 metres high and over 5 metres wide, depicts the Hellenistic forces of Alexander the Great doing triumphant battle with the Persian armies of King Darius III during the pivotal battle of Issus in 333 BC.
+The Greeks sweep in from the left, causing the Persians to flee in disarray, and the details of their rout are extraordinary. Here a soldier is crushed beneath the wheels of a chariot; there a defeated warrior raises his hands in supplication. Amidst the swirling tangle of bodies two figures stand out above all: the noble and suave Alexander, proudly riding in on his horse Bucephalus, and the object of his cool gaze - the panicked Darius, fleeing in his chariot.
+The amazingly elaborate mosaic was created using over one and a half million individual tesserae, the tiny coloured stone tiles that, composed together, unite to form a wonderfully rich composition every bit as detailed as a painting. The mosaic’s complex perspective logic and foreshortening, combined with its elaborate composition, size and spectacular lighting effects make the Alexander  and Darius mosaic unique in the story of ancient art."
+
+  utter_exhibit_portrait_terentius:
+  - text: "Not all of the ancient world’s most impressive artworks detail the great deeds of men or the noble sweep of history. Far more humble in scope than some of the other entries on our list, but no less impressive for it, is this charming double portrait of Pompeii bakery owner Terentius Neo and his wife. The toga-wearing baker holds a papyrus scroll closed with a wax seal, whilst his fashionable wife clutches a stylus and writing tablet, seemingly poised in thought before penning a text.
+Despite being members of the merchant classes rather than the aristocracy, the couple clearly have aspirations about their role in society. Keen to demonstrate their cultured values and education, their literacy is an obvious source of pride, and the true subject of the painting. The equal footing on which the two are represented offers a fascinating insight into the gender politics of the ancient world, whilst the fact that Terentius himself appears ethnically North African indicates that racially mixed marriages were not a rare occurrence in the ancient empire."
+
+  utter_exhibit_farnese_bull:
+  - text: "One of the most remarkable and complex ancient sculptures ever carved, the massive group known as the Farnese Bull depicts the dramatic moment in Greek mythology when the sons of Antiope murder her pitiless and longtime persecutor Dirce, wife of the ruler of Thebes. Enraged at her mistreatment of their mother, the half-divine Amphion and Zethus (products of an ill-fated tryst between Antiope and Zeus) tie Dirce to the horns of a raging bull, who will dash her to pieces. The sculpture freezes the narrative at the high-point of the action: the boys industriously wind ropes around the struggling bull and their helpless victim, who raises her arms in doomed supplication. Behind the bull Antiope herself gazes impassively on, whilst an excited dog adds some levity to the dark tale.
+The sculpture is probably a Roman copy of a lost Greek original attributed by Pliny the Elder to Apollonius of Tralles, and was unearthed in Rome’s Baths of Caracalla in 1545 - a fittingly colossal stage for what might just be the grandest antique sculptural group of all. Quickly finding its way into the unrivalled Farnese collection alongside the Hercules, it made its way to Naples along with the majority of the collection in the 18th century. "
+
+  utter_exhibit_donarium:
+  - text: "Art and death have had a profound relationship since earliest times, and amongst the most touching sculptures in the museum’s collection is this group of disparate dying figures from antiquity. Probably grouped together in the Baths of Agrippa in ancient Rome to commemorate the military triumphs of Agrippa over the Galatians in 37 BC, the sculptures and were inspired by the works set up in the Sanctuary of Athena at Pergamon to celebrate the city’s own victory over the Gauls in the third century BC.
+Two of the works, depicting a dead Giant and a dying female Amazonian warrior, refer to mythical battles that had great symbolic power in the ancient world - the Gigantomachy and Amazonomachy, whilst the other works depict dying warriors from real wars - a Gaulish warrior sputtering out his final breaths, and a remarkably powerful Persian soldier in distinctive Phrygian headdress, doubled over on the ground with a mortal spear wound in his side and a defeated expression on his face. The realism of the defeated warriors is simply remarkable."
+
+  utter_exhibit_bronze_runners:
+  - text: "Few sculptures capture the dynamic athleticism of the classical world’s sporting heritage than these runners recovered from the luxurious Villa dei Papiri in Herculaneum. 1st-century-BC copies of 4th-century BC Greek originals, the athletes seem poised to spring into action in answer to the starter’s call. Runners such as these took centre stage in the ancient Panhellenic Olympics’ flagship event, the stadion, whose victor gained the honour of lighting the Olympic flame for the subsequent games. As we gaze into the incredibly detailed whites of the athletes eyes we can’t help but wonder - who will triumph?"
+
+  utter_what_source:
+  - text: "I have got all the information from here: https://www.througheternity.com/en/blog/things-to-do/7-masterpieces-naples-archaeological-museum.html"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

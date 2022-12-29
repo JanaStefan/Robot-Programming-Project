@@ -1,0 +1,134 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: exhibit_farnese_hercules
+  examples: | 
+    - can you tell me more about [the Farnese Hercules](exhibit)
+    - please tell me more about [the Farnese Hercules](exhibit)
+
+- intent: exhibit_gabinetto_segreto
+  examples: |
+    - can you tell me more about [the Gabinetto Segreto](exhibit)
+    - please tell me more about [the Gabinetto Segreto](exhibit)
+
+- intent: exhibit_battle_mosaic
+  examples: |
+    - can you tell me more about [the Battle of Alexander against Darius Mosaic](exhibit)
+    - please tell me more about [the Battle of Alexander against Darius Mosaic](exhibit)
+
+- intent: exhibit_portrait_terentius
+  examples: |
+    - can you tell me more about [the Portrait of Terentius Neo and his wife](exhibit)
+    - please tell me more about [the Portrait of Terentius Neo and his wife](exhibit)
+
+- intent: exhibit_farnese_bull
+  examples: |
+    - can you tell me more about [the Farnese Bull](exhibit)
+    - please tell me more about [the Farnese Bull](exhibit)
+
+- intent: exhibit_donarium
+  examples: |
+    - can you tell me more about [the Donarium of Dying Figures](exhibit)
+    - please tell me more about [the Donarium of Dying Figures](exhibit)
+
+- intent: exhibit_bronze_runners
+  examples: |
+    - can you tell me more about [the Bronze Runners](exhibit)
+    - please tell me more about [the Bronze Runners](exhibit)
+
+- intent: what_source
+  examples: |
+    - where do you get all the information?
+    - please tell me your source
+    - how did you learn that?
+    - can i trust you with this information?
